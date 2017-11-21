@@ -9,6 +9,10 @@ client.on('message', message => {
     if (message.content === 'ping') {
     	message.reply('pong');
   	}
+    client.on('message', message => {
+    if (message.content === 'hi') {
+    	message.reply('Hello there!');
+  	}
 });
 
 // THIS  MUST  BE  THIS  WAY
